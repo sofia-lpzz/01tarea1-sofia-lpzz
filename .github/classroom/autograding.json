@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "05 Calcula lustros",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/05Lustros",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "06 Calcula peso por mes",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/06Peso",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "07 Pendiente Linea",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/07PendienteLinea",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "08 Caracol",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/08Caracol",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "09 Telefono",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/09Telefono",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "10 Videojuego",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/10Videojuego",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "13 Cantidad de Litros de Pintura",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/13CantidadLitrosPintura",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "14 Distancia Dos Puntos",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/14DistanciaDosPuntos",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "15 Escalera",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/15Escalera",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "18 Cuenta Bancaria",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/18CuentaBancaria",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
