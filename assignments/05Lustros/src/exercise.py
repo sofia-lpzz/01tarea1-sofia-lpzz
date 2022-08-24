@@ -1,6 +1,9 @@
 def main():
     #escribe tu código abajo de esta línea
-    pass
+    birth = int(input('Dame el año de nacimiento: '))
+    ahora = int(input('Dame el año actual: '))
+    lustros = (ahora - birth) / 5
+    print ('Los lustros que has vivido son:', lustros)
 
 
 

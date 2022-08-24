@@ -1,8 +1,7 @@
-import math
-def main():
-    #escribe tu código abajo de esta línea
-    pass
 
+def main()
+    área = float(input("área en metros: "))
+    espacio = int(input("espacio (m2/l): "))
+    cantidad = round(área/espacio)
+    print("compra:", cantidad)
 
-if __name__ == '__main__':
-    main()
