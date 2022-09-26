@@ -1,7 +1,7 @@
 
-def main()
-    área = float(input("área en metros: "))
-    espacio = int(input("espacio (m2/l): "))
-    cantidad = round(área/espacio)
-    print("compra:", cantidad)
+def main():
+    area = float(input('Area a pintar en metros: '))
+    rendi = float(input('Rendimiento (m2/l): '))
+    lit = (area / rendi)
+    print('Litros a comprar:', round(lit))
 

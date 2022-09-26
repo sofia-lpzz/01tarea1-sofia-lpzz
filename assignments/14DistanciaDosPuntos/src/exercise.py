@@ -1,13 +1,12 @@
 import math
-def main( variable1=x1, variable2=y1, variable3=x1, variable4=y2, x1=variable1):
+def main():
     #escribe tu código abajo de esta línea
-    variable1 = int(input("variable1: "))
-    variable2 = int(input("Variable2: "))
-    variable3 = int(input("variable3: "))
-    variable4 = int(input("variable4: "))
-    dist = (math.sqrt(variable3-variable1)**2+(variable4-variable2)**2)
-    dist = round(dist, 2)
-    print("dist:", dist)
-
+    x1 = int(input('x1= '))
+    y1 = int(input('y1= '))
+    x2 = int(input('x2= '))
+    y2 = int(input('y2= '))
+    distancia = math.sqrt((x2 - x1)*2 + (y2 - y1)**2)
+    distancia = round(distancia, 2)
+    print('distancia=', distancia)
 if __name__ == '__main__':
     main()
